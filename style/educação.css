@@ -1,0 +1,53 @@
+.banner img{
+    width: 100%;
+}
+.banner h1{
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 1;
+    top: calc(50% - 30px);
+    left: calc(50% - 450px);
+    font-size: 60px;
+    font-weight: lighter;
+}
+article{
+    margin: 50px 0 50px 0;
+}
+article > div{
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+article ul{
+    padding: 0;
+}
+article h2{
+    color: #27417F;
+}
+article li{
+    list-style: none;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+article li > *{
+    padding: 25px;
+}
+#card1{
+    background-color: #D4E1FF;
+    color: #27417F;
+}
+#card2{
+    background-color: #9DB9FF;
+    color: #5583F1;
+}
+#card3{
+    background-color: #5583F1;
+    color: #9DB9FF;
+}
+#card4{
+    background-color: #27417F;
+    color: #D4E1FF;
+}

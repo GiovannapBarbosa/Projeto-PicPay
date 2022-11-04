@@ -1,0 +1,27 @@
+body{
+    background-color: #27417F;
+}
+.banner img{
+    width: 100%;
+}
+.banner h1{
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 1;
+    top: calc(50% - 30px);
+    left: calc(50% - 600px);
+    font-size: 60px;
+    font-weight: lighter;
+}
+article{
+    color: white;
+    text-align: center;
+}
+article ul{
+    padding: 0;
+}
+article li{
+    display: inline-block;
+    margin: 10px;
+}

@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+section{
+    position: absolute;
+    background-color: #27417F;
+    width: 350px;
+    height: 350px;
+    top: calc(50% - 160px);
+    left: calc(50% - 160px);
+    color: white;
+}
+.login > *{
+    vertical-align: middle;
+    margin: 5px;
+    display: inline-block;
+}
+form div > *{
+    display: block;
+}
+.usuario, .senha, .login{
+    padding: 15px;
+}
+form div input{
+    width: 90%;
+    height: 20px;
+}
+.titulo{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: -20px;
+    font-size: 1em;
+    background-color: #9DB9FF;
+}
+.enviar{
+    width: 60%;
+    padding: 10px 0 10px 0;
+    background-color: #9DB9FF;
+    border: 0;
+    margin: 20px;
+    margin-left: 65px;
+}
+.enviar a{
+    color: white;
+    text-decoration: none;
+}

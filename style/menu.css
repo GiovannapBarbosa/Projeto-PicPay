@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    width: 100%;
+    background-color: #27417F;
+    display: table;
+}
+header > *{
+    width: 33%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+}
+.logo img{
+    width: 150px;
+}
+header .login{
+    background-color: #D9D9D9;
+    width: 40px;
+    height: 40px;
+    border-radius: 10vw;
+    float: right;
+}
+nav ul{
+    width: 100%;
+    display: table;
+}
+nav li{
+    padding: 0 20px 0 20px;
+    font-size: 15px;
+    display: table-cell;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}

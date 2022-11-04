@@ -1,0 +1,80 @@
+.banner img{
+    width: 100%;
+}
+.banner h1{
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 1;
+    top: calc(50% - 80px);
+    left: calc(50% - 250px);
+    font-size: 60px;
+    font-weight: lighter;
+}
+.card{
+    text-align: center;
+}
+.card li{
+    text-align: center;
+    width: 180px;
+    padding: 15px;
+    margin: 5px;
+    display: inline-block;
+}
+#card1{
+    background-color: #ABC4FF80;
+}
+#card2{
+    background-color: #6693FF80;
+}
+#card3{
+    background-color: #899DCC80;
+}
+#card4{
+    background-color: #27417F80;
+}
+.fotos_representativas{
+    padding-top: 50px;
+    text-align: center;
+}
+.fotos_representativas h2{
+    color: #899DCC;
+    font-weight: 300;
+}
+.fotos_representativas img{
+    width: 100%;
+}
+.começo-tudo{
+    width: 100%;
+    text-align: center;
+}
+.começo-tudo div{
+    width: 49%;
+    display: inline-block;
+}
+.começo-tudo h2{
+    font-size: 1.3em;
+    line-height: 70px;
+}
+.começo-tudo p{
+    margin: auto;
+    font-size: 0.8em;
+    text-align: left;
+    width: 50%;
+}
+.localização{
+    background-color: #ABC4FF80;
+    width: 100%;
+    margin-top: 60px;
+}
+.localização h2{
+    font-weight: 200;
+}
+.localização > div{
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+.localização div div{
+    font-size: 15px;
+    color: gray;
+}

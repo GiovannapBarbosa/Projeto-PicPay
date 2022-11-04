@@ -1,0 +1,17 @@
+footer{
+    background-color: #0070C0;
+    color: white;
+    font-weight: lighter;
+}
+footer table{
+    margin: auto;
+    height: 150px;
+}
+footer td{
+    width: 300px;
+    text-align: center;
+}
+footer td > *{
+    display: inline-block;
+    vertical-align: middle;
+}
